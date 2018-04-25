@@ -3,19 +3,14 @@ class Book
     @title = title
   end
 
-  attr_accessor :title
+  attr_accessor :author, :page_count, :genre
+  attr_reader :title
 
-  # alt version of title instance methods --
+  # alt version of title instance method --
 
-  # def title=(title)
-  #   @title = title
-  # end
-  #
   # def title
   #   @title
   # end
-
-  attr_accessor :author
 
   # alt version of author instance methods --
 
@@ -27,8 +22,6 @@ class Book
   #   @author
   # end
 
-  attr_accessor :page_count
-
   # alt version of page count instance methods --
 
   # def page_count=(page_count)
@@ -38,8 +31,6 @@ class Book
   # def page_count
   #   @page_count
   # end
-
-  attr_accessor :genre
 
   # alt version of genre instance methods --
 
